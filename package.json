@@ -1,0 +1,20 @@
+{
+  "name": "challenge-eda",
+  "version": "0.0.1",
+  "description": "This is a challenge of the Event Driven Architecture course that I took at [FullCycle](https://fullcycle.com.br/) by [Wesley Willians](https://www.linkedin.com/in/wesleywillians/).",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalloglio/challenge-eda.git"
+  },
+  "keywords": [],
+  "author": "Ricardo Pires <ricardo.tech@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalloglio/challenge-eda/issues"
+  },
+  "homepage": "https://github.com/dalloglio/challenge-eda#readme"
+}
