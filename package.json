@@ -4,6 +4,7 @@
   "description": "This is a challenge of the Event Driven Architecture course that I took at [FullCycle](https://fullcycle.com.br/) by [Wesley Willians](https://www.linkedin.com/in/wesleywillians/).",
   "main": "src/index.js",
   "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/dalloglio/challenge-eda/issues"
   },
-  "homepage": "https://github.com/dalloglio/challenge-eda#readme"
+  "homepage": "https://github.com/dalloglio/challenge-eda#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
