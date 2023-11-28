@@ -62,7 +62,7 @@ describe('Implement Client Gateway', () => {
   });
 
   it('should save a client', async () => {
-    clientGateway.save(client);
+    await clientGateway.save(client);
     expect(mockedInsert.mock.calls).toHaveLength(1);
     expect(mockedInsert.mock.calls[0][0]).toStrictEqual(client);
   });
